@@ -1,0 +1,22 @@
+.summary.layer {
+  padding: inherit;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.tilt {
+  position: relative;
+  transform-style: preserve-3d;
+  transform: perspective(4000px);
+}
